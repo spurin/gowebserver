@@ -6,7 +6,6 @@ import (
 	"net/http"
 )
 
-
 var port = flag.String("port", "8080", "TCP port to listen on")
 var root = flag.String("root", ".", "Filesystem root path")
 
